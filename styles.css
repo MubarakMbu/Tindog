@@ -1,0 +1,163 @@
+/* common css */
+body{
+    font-family: 'Montserrat';
+    text-align: center
+}
+h1, h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+.section-text {
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.colored-section{
+    background-color: #FF4C68;
+    color: #fff;
+
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* section headings */
+.heading-big{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.heading-med{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.heading-subsec{
+    font-size: 1.5rem;
+ 
+}
+
+/* section title */
+#title .container-fluid{
+    padding-top: 3%;
+    text-align: left;
+}
+
+
+#title-img {
+    left: 0%;
+    transform: rotate(25deg);
+    width: 70%;
+    position: absolute;
+    margin: 8% 0 0 20%;
+}
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+/* tindog logo */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 5%;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+.download-btn{
+    margin: 5% 3% 0%;
+}
+
+
+/* <section features> */
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    padding: 4% 2%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+/* pseudo classes */
+.feature-icon:hover {
+    color: #FF4C68;
+}
+
+/* section testimonials */
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testmonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* section press */
+#press .container-fluid{
+    background-color: #ef8172;
+    padding-top: 0%;
+
+}
+
+.press-logo{
+    width: 20%;
+    margin: 0% 2%;
+}
+
+/* section pricing */
+.price-card{
+    padding: 3% 2%;
+}
+
+/* section footer */
+#footer .container-fluid{
+    padding: 2% 0;
+}
+.footer-icon {
+    margin: 2% 1%;
+}
+
+/* responsive*/
+@media (max-width: 1110px) {
+    .heading-big{
+        font-size: 3rem;
+    }
+    .heading-med{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 992px) {
+    .heading-med{
+        font-size: 2rem;
+    }
+    #title-img {
+        position: static;
+        width: 30%;
+        transform: rotate(0deg);
+        margin-left: auto;
+    }
+    #title .container-fluid{
+        text-align: center;
+    }
+    
+}
